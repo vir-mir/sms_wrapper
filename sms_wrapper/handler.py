@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from sms_wrapper.sms_wrapper.base_handler import BaseHandler, HandlerLogDB
+from sms_wrapper.base_handler import BaseHandler, HandlerLogDB
 
 
 class Smsc(BaseHandler, HandlerLogDB):

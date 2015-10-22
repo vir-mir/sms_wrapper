@@ -2,7 +2,7 @@
 from django.test import TestCase
 
 from sms_wrapper import get_handler
-from sms_wrapper.sms_wrapper import excepts, base_handler
+from sms_wrapper import excepts, base_handler
 
 
 class HandlerDummy(base_handler.BaseHandler):

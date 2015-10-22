@@ -5,8 +5,7 @@ import os
 
 
 def get_packages(package):
-    return [dirpath
-            for dirpath, dirnames, filenames in os.walk(package)
+    return [dirpath for dirpath, dirnames, filenames in os.walk(package)
             if os.path.exists(os.path.join(dirpath, '__init__.py'))]
 
 

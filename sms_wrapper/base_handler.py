@@ -4,7 +4,7 @@ import json
 import requests
 from requests import exceptions
 
-from sms_wrapper.sms_wrapper.models import Log
+from sms_wrapper.models import Log
 from sms_wrapper import excepts
 
 
