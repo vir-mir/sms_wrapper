@@ -21,7 +21,7 @@ def get_package_data(package):
 
 setup(
     name='django_sms_wrapper',
-    version='1.0.1',
+    version='1.0.2',
     packages=get_packages('sms_wrapper'),
     package_data=get_package_data('sms_wrapper'),
     long_description='test',
